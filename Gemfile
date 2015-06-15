@@ -13,6 +13,7 @@ gem 'font-awesome-rails'
 gem 'bootstrap-sass'
 gem 'bootstrap-sass-extras'
 gem 'oneapm_rpm'
+gem 'turnout'
 
 group :development do
   gem 'annotate'
