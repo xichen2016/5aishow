@@ -24,3 +24,5 @@ test:
 production:
   <<: *default
   database: 5aishow
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
